@@ -1,0 +1,38 @@
+.Structure {
+    grid-template-areas:
+    "search"
+    "tables"
+    "backbutton";
+    grid-template-rows: 1fr 3fr 1fr;
+}
+
+.Search {
+    grid-area: search;
+    margin-top: 2rem;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.Table{
+    grid-area: tables;
+    margin-top: 2rem;
+}
+
+.Buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+
+.Backbutton{
+    grid-area: backbutton;
+    text-align: center;
+}
+
+.PageNation{
+    margin-top: 2rem;
+}
